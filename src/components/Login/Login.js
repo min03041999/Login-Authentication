@@ -22,7 +22,12 @@ export default function Login({ setToken }) {
       username,
       password,
     });
-    setToken(token);
+    console.log(token);
+    if (token) {
+      setToken(token);
+    } else {
+      alert("Account or password wrong");
+    }
   };
 
   return (
