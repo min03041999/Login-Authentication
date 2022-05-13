@@ -3,3 +3,7 @@
 Creating a Token API
 
 ### `npm install --save-dev express cors`
+
+Run Api
+
+### `node server.js`
